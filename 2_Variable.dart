@@ -1,3 +1,17 @@
+/*
+Dart에 DataType은 5개 뿐이다.
+Numbers
+Strings
+Booleans
+Lists
+Maps
+
+var로 데이터 선언을 하는경우 실행단계에서 type이 결정되고 한번 할당한 뒤에는 변수의 type은 변하지 않는다. 
+type을 바꾸면서 변수를 담고 싶다면 dynamic을 사용해야 하는데 그건 다음 코드에서 알아보자.
+
+*/
+
+
 void main() {
   var name ="dldldlfma"; //String
   print("My name is ${name}");
